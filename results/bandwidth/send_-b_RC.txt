@@ -1,0 +1,24 @@
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Send Bidirectional BW Test
+ Dual-port       : OFF		Device         : mlx4_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ TX depth        : 128
+ RX depth        : 512
+ CQ Moderation   : 100
+ Mtu             : 2048[B]
+ Link type       : IB
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0x1c QPN 0xf947 PSN 0xdaa115
+ remote address: LID 0x88 QPN 0x0627 PSN 0x9dc5ff
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MB/sec]    BW average[MB/sec]   MsgRate[Mpps]
+ 65536      1000             11627.99            11582.75		   0.185324
+---------------------------------------------------------------------------------------

@@ -1,0 +1,24 @@
+---------------------------------------------------------------------------------------
+                    Send Bidirectional BW Test
+ Dual-port       : OFF		Device         : mlx4_0
+ Number of qps   : 2		Transport type : IB
+ Connection type : XRC		Using SRQ      : ON
+ TX depth        : 128
+ RX depth        : 512
+ CQ Moderation   : 100
+ Mtu             : 2048[B]
+ Link type       : IB
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0x88 QPN 0x0629 PSN 0xcaea7d SRQn 0x000042
+ local address: LID 0x88 QPN 0x80062a PSN 0x158f23 SRQn 0x000042
+ remote address: LID 0x1c QPN 0xf949 PSN 0x266e3f SRQn 0x000042
+ remote address: LID 0x1c QPN 0x80f94a PSN 0x44f4bd SRQn 0x000042
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MB/sec]    BW average[MB/sec]   MsgRate[Mpps]
+ 65536      1000             11365.61            11275.04		   0.180401
+---------------------------------------------------------------------------------------
+  11275.04		   0.180401
+---------------------------------------------------------------------------------------

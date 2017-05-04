@@ -1,0 +1,25 @@
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write Bidirectional BW Test
+ Dual-port       : OFF		Device         : mlx4_0
+ Number of qps   : 2		Transport type : IB
+ Connection type : XRC		Using SRQ      : ON
+ TX depth        : 128
+ CQ Moderation   : 100
+ Mtu             : 2048[B]
+ Link type       : IB
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0x1c QPN 0xf94e PSN 0x7771c2 RKey 0x28010e08 VAddr 0x007fffedacb000 SRQn 0x000042
+ local address: LID 0x1c QPN 0x80f94f PSN 0xaf2584 RKey 0x28010e08 VAddr 0x007fffedadb000 SRQn 0x000042
+ remote address: LID 0x88 QPN 0x062e PSN 0x382bec RKey 0x20010e08 VAddr 0x007fffedac2000 SRQn 0x000042
+ remote address: LID 0x88 QPN 0x80062f PSN 0x2e989d RKey 0x20010e08 VAddr 0x007fffedad2000 SRQn 0x000042
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MB/sec]    BW average[MB/sec]   MsgRate[Mpps]
+ 65536      5000             11751.23            11710.01		   0.187360
+---------------------------------------------------------------------------------------

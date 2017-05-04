@@ -1,0 +1,25 @@
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Atomic FETCH_AND_ADD Bidirectional BW Test
+ Dual-port       : OFF		Device         : mlx4_0
+ Number of qps   : 2		Transport type : IB
+ Connection type : XRC		Using SRQ      : ON
+ TX depth        : 128
+ CQ Moderation   : 100
+ Mtu             : 2048[B]
+ Link type       : IB
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0x1c QPN 0xf93f PSN 0xd5b0d4 SRQn 0x000042
+ local address: LID 0x1c QPN 0x80f940 PSN 0x122c2e SRQn 0x000042
+ remote address: LID 0x88 QPN 0x061f PSN 0xf30276 SRQn 0x000042
+ remote address: LID 0x88 QPN 0x800620 PSN 0x3d7a28 SRQn 0x000042
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MB/sec]    BW average[MB/sec]   MsgRate[Mpps]
+ 8          1000             38.77              38.50  		   5.046831
+---------------------------------------------------------------------------------------

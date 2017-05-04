@@ -1,0 +1,18 @@
+~ General
+1. ethtool
+2. ifconfig
+3. iptables
+4. Testing / Benchmarking
+    4.1 ping
+    4.2 netpipe
+    4.3 iperf
+
+~ RDMA specific
+1. ibv_devices --> shows availiable RDMA devices in the local machine
+2. ibv_devinfo -d mlx4_0 ---> opens a device (mlx4_0) and queries it
+    for its attributes (verify that user and kernel RDMA parts are working)
+3. ibstatus --> show status of all ports 
+4. Testing 
+    4.1 rping
+    4.2 ibv_rc_pingpong
+    4.3 ibv_uc_pingpong

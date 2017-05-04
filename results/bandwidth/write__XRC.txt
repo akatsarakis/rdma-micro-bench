@@ -1,0 +1,22 @@
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF		Device         : mlx4_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : XRC		Using SRQ      : ON
+ CQ Moderation   : 100
+ Mtu             : 2048[B]
+ Link type       : IB
+ Max inline data : 0[B]
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0x1c QPN 0x80f950 PSN 0x9972bb RKey 0x30010e08 VAddr 0x007fffedadb000 SRQn 0x000042
+ remote address: LID 0x88 QPN 0x0630 PSN 0x9e6fda RKey 0x28010e08 VAddr 0x007fffedad2000 SRQn 0x000042
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MB/sec]    BW average[MB/sec]   MsgRate[Mpps]
+ 65536      5000             6060.84            6057.56		   0.096921
+---------------------------------------------------------------------------------------

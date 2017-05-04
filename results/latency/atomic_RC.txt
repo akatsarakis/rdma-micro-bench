@@ -1,0 +1,20 @@
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    Atomic FETCH_AND_ADD Latency Test
+ Dual-port       : OFF		Device         : mlx4_0
+ Number of qps   : 1		Transport type : IB
+ Connection type : RC		Using SRQ      : OFF
+ Mtu             : 2048[B]
+ Link type       : IB
+ Outstand reads  : 16
+ rdma_cm QPs	 : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0x1c QPN 0xf92d PSN 0xa5616e
+ remote address: LID 0x88 QPN 0x060d PSN 0x27556e
+---------------------------------------------------------------------------------------
+.53           12.30        2.57   
+---------------------------------------------------------------------------------------
